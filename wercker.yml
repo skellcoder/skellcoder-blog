@@ -5,6 +5,7 @@ build:
         version: "0.17"
         theme: anybodyhome
         flags: --buildDrafts=true
+        prod_branches: master
 deploy:
   steps:
     - install-packages:
