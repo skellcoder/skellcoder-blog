@@ -1,0 +1,9 @@
+theme = "anybodyhome"
+baseurl = "https://hugosite.com"
+languageCode = "en-us"
+title = "Code up North"
+
+[params]
+  subtitle = "SkellCoder"
+  HeaderUsername = "jakob"
+  HeaderHostname = "skellcoder"

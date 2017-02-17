@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+
+<body>
+
+  {{ partial "navbar.html" . }}
+
+  <div class="container-fluid wrapper">
+
+    {{ partial "header.html" . }}
+    <section>
+      {{ range (.Paginator 5).Pages }} {{ .Render "summary" }} {{ end }}
+    </section>
+
+  </div>
+  {{ partial "paginator.html" . }} {{ partial "footer.html" . }}
+
+</body>
