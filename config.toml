@@ -1,5 +1,5 @@
 theme = "anybodyhome"
-baseurl = "https://hugosite.com"
+baseurl = "http://blog.skellcoder.com/"
 languageCode = "en-us"
 title = "Code up North"
 
