@@ -15,7 +15,14 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a href="{{ .Site.BaseURL }}">/home/{{.Site.Params.HeaderUsername}}</a>
+					{{ with .Site.Params.GithubID }}
+					<a href="https://github.com/{{.}}" title="GitHub"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+					{{ end }}
+				</li>
+					<li>
+					{{ with .Site.Params.TwitterID }}
+					<a href="https://twitter.com/{{.}}" title="Twitter"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+					{{ end }}
 				</li>
 				{{ range .Site.Menus.header }}
 				{{ $name := lower .Name }}

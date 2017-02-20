@@ -57,8 +57,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 i {
-	margin: 10px 20px 10px 20px;
-	color: #333;
+	margin: 0px 5px 0px 5px;
+	color: #FFF;
 }
 
 .post-link {
@@ -98,4 +98,9 @@ i {
 .col-centered{
 	float: none;
 	margin: 0 auto;
+}
+
+.navbar-nav>li>a {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
