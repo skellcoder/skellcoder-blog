@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on Code up North</title>
+    <link>http://blog.skellcoder.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on Code up North</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Feb 2017 20:28:24 +0100</lastBuildDate>
+    <atom:link href="http://blog.skellcoder.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>So I started an blog.</title>
+      <link>http://blog.skellcoder.com/post/2017_02_19/</link>
+      <pubDate>Sun, 19 Feb 2017 20:28:24 +0100</pubDate>
+      
+      <guid>http://blog.skellcoder.com/post/2017_02_19/</guid>
+      <description>&lt;p&gt;My blogging has never been my biggest strength.
+The last blogging attempt was an whopping disaster, lasting for one post with maybe two-three sentence.
+Hoping that this blog will be a bit more active.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;So why should I have an blog? Since school I felt that I have stopped doing deep learning, with this blog I will try to
+go trough subjects I feel that I want to learn in more detail. I will also do it in public so I can improve my writing and force me
+to actually do the writing.&lt;/p&gt;
+
+&lt;h2 id=&#34;content&#34;&gt;Content?&lt;/h2&gt;
+
+&lt;p&gt;I will focus on programming and tech but may branch out. Topics I know I want to get a SOLID grip on is,
+SOLID, Tensorflow, learning more languages (Erlang, GO, Haskell) and possibly do a couple of posts with focus on a couple of good books (Clean code/r).&lt;/p&gt;
+
+&lt;h2 id=&#34;blog-power&#34;&gt;Blog power&lt;/h2&gt;
+
+&lt;p&gt;The blog is powered with &lt;a href=&#34;http://gohugo.io/&#34;&gt;hugo&lt;/a&gt;, &lt;a href=&#34;http://www.wercker.com/&#34;&gt;wercker&lt;/a&gt; and deployed on github pages.
+My first thought was doing it with something simple like wordpress or medium. But then I found hugo a simple
+static site generator built with GO. Don&amp;rsquo;t know if the best platform but I got a good vibe when I started to use it.
+Still a few kinks to work out with the layout but probably somebody has already had that problem and asked on SO.
+You can see the progress (or lack of) on my &lt;a href=&#34;https://github.com/skellcoder/skellcoder-blog&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
